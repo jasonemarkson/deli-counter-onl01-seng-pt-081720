@@ -17,7 +17,6 @@ end
 line(katz_deli)
 
 def take_a_number(katz_deli, name)
-  other_deli = []
   if katz_deli >= 1 
   katz_deli.each_with_index do |name, element|
     puts katz_deli.push("Welcome, #{name}. You are number #{element + 1} in line.")
