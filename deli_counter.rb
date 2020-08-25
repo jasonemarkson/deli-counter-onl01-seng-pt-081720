@@ -18,6 +18,4 @@ line(katz_deli)
 
 def take_a_number(katz_deli, name)
     puts katz_deli.push("Welcome, #{name}. You are number #{element + 1} in line.")
-    puts katz_deli.push(name)
-  end
 end
