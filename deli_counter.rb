@@ -16,6 +16,7 @@ end
 
 line(katz_deli)
 
-def take_a_number(katz_deli, name)
-    puts katz_deli.push("Welcome, #{name}. You are number #{katz_deli[name]} + 1} in line.")
+def take_a_number (katz_deli, name)
+  katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
